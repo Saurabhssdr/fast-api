@@ -16,10 +16,10 @@
 
 from fastapi import FastAPI
 from routes.location_routes import router as location_router
-from dotenv import load_dotenv
+
 import os
 
-load_dotenv()  # Load .env from root directory
+
 app = FastAPI()
 app.include_router(location_router)
 
