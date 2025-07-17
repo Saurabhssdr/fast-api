@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # import httpx
 
 # from fastapi import HTTPException
@@ -102,6 +103,12 @@
 import boto3
 from boto3.dynamodb.conditions import Key
  
+
+import boto3
+from boto3.dynamodb.conditions import Key
+ 
+# No need to load .env or use os.getenv
+
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 table = dynamodb.Table('Locations')
  
