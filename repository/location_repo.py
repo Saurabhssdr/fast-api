@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # import httpx
 
 # from fastapi import HTTPException
@@ -98,10 +98,6 @@
  
 # async def scan_all():
 #     return table.scan()
-
-
-import boto3
-from boto3.dynamodb.conditions import Key
  
 
 import boto3
