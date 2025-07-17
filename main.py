@@ -20,7 +20,7 @@
 
 from fastapi import FastAPI
 from routes.location_routes import router as location_router
-import os
+
 app = FastAPI()
 app.include_router(location_router)
 
