@@ -106,7 +106,7 @@ from boto3.dynamodb.conditions import Key
 # No need to load .env or use os.getenv
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-table = dynamodb.Table('Locations')
+table = dynamodb.Table('LocationsTerraform')
  
 async def get_item(key: dict):
     return table.get_item(Key=key)
